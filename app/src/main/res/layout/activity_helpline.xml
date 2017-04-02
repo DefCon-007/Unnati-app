@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:weightSum="1"
+    android:background="@drawable/helpline_background">
+
+    <ImageView
+        android:id="@+id/icarlogo"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:src="@drawable/icarlogo"
+        android:contentDescription=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:layout_gravity="center">
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/call_icon"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:src="@drawable/helpline_call_icon"
+        android:contentDescription=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+
+        android:id="@+id/buttonCall"
+        android:text="call helpline"
+        android:textSize="36sp"
+        android:theme="@style/AppTheme"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textColor="#d0f0e93d"
+        android:background="@drawable/shape_2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TOLL FREE NUMBER"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="1800-180-1551"
+    android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

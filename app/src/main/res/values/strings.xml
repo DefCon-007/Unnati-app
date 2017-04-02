@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Krishi-Help</string>
+    <string name="server_ip">http://krishi5430.cloudapp.net</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="refreshlist">Refreshing Prices</string>
+
+    <!--Activity Crop Check-->
+    <string name="probable_crop_name">The above image is most probably of&#160;</string>
+    <!--Activity News-->
+    <string name="news_click_notification">Tap on list to read more !</string>
+    <string name="newsOnNotification">You will now receive notification when prices will update</string>
+    <string name="newsOffNotification">Notifications for prices not turned off</string>
+
+    <!--Activity Prices-->
+    <string name="title_activity_activity_prices_tabbed">AgriMart</string>
+    <string name="pricePesticide">Getting list of Pesticides</string>
+    <string name="priceFertiliser">Getting list of Fertilisers</string>
+    <string name="priceSeed">Getting list of Seeds</string>
+    <string name="price_buynow_btn">Buy Now</string>
+    <string name="priceOnNotification">You will now receive notification when prices will update</string>
+    <string name="priceOffNotification">Notifications for prices not turned off</string>
+    <!--Helpline Activity -->
+    <string name="helpline_activity_title">Helpline</string>
+
+    <!--MainPage Activity-->
+    <string name="mainpage_internet_offline_crop">Sorry! You Need Internet Connection To Check Crop</string>
+    <string name="mainpage_internet_offline_disease">Sorry! You Need Internet Connection To Check Disease</string>
+    <string name="mainpage_image_process_crop">Processing Leaf Image</string>
+    <string name="mainpage_image_process_disease">Processing Leaf Image</string>
+
+    <!--Activity Login-->
+    <string name="activity_login_noemail">Please enter the email id</string>
+    <string name="activity_login_nopass">Please enter the password</string>
+    <string name="activity_login_login_dialog">Logging In</string>
+    <string name="activity_login_wrongemail">Wrong E-mail entered</string>
+    <string name="activity_login_wrongpass">Wrong password entered</string>
+    <string name="activity_login_senddatafail">Please try again later</string>
+
+    <!--Actvity Register-->
+    <string name="activity_register_no_firstname">You forgot to enter your first name</string>
+    <string name="activity_register_no_lastname">You forgot to enter your last name</string>
+    <string name="activity_register_no_emailid">You forgot to enter your email id</string>
+    <string name="activity_register_no_contactno">You forgot to enter your contact number</string>
+    <string name="activity_register_no_password">You forgot to enter the password</string>
+    <string name="activity_register_no_repassword">You forgot to re-enter the password</string>
+    <string name="activity_register_passwords_not_match">Sorry! Passwords did not match</string>
+    <string name="activity_register_register_dialog">"Signing you up\n  Please Wait... "</string>
+    <string name="activity_register_duplicateuser_1">Hi !</string>
+    <string name="activity_register_duplicateuser_2">. You are already registered. Please log in to continue.</string>
+    <string name="activity_register_success_register_1">Hi !</string>
+    <string name="activity_register_success_register_2">. You are already registered. Please log in to continue.</string>
+    <string name="activity_register_error">"Please try again later"</string>
+
+    <string name="activity_register_switch_off">Farmer</string>
+    <string name="activity_register_switch_on">Buyer</string>
+    <!--<string name="activity_register_"></string>-->
+    <!--<string name="activity_register_"></string>-->
+</resources>

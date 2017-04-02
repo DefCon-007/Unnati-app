@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ayush.krishi_help">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.homepage"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.homepage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".Image_upload"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.example.ayush.krishi_help.Image_upload" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activities.ActivityNews"
+            android:parentActivityName=".activities.MainPage">
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActivityNews" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ActivityPrices"
+            android:parentActivityName=".activities.MainPage">
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActivityPrices" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ActivityDisease">
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActivityDisease" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ActivityPricesTabbed"
+            android:label="@string/title_activity_activity_prices_tabbed"
+            android:parentActivityName=".activities.MainPage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActivityPricesTabbed" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainPage"
+            android:label="activity_madan_miain"
+            android:parentActivityName=".activities.MainPage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActivityPricesTabbed" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.ActiveHelpline"
+            android:label="@string/helpline_activity_title"
+            android:parentActivityName=".activities.MainPage"
+            >
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.ActiveHelpline" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--Login Activity-->
+        <activity android:name=".activities.ActivityLogin"
+            android:parentActivityName=".activities.homepage">
+
+        </activity>
+
+        <!--SignUp Activity-->
+        <activity android:name=".activities.ActivityRegister"
+            android:parentActivityName=".activities.homepage">
+
+        </activity>
+        <!--CropCheck Activity-->
+        <activity android:name=".activities.Activitycropcheck"
+            android:parentActivityName=".activities.MainPage">
+            <intent-filter>
+                <action android:name="com.example.ayush.krishi_help.Activitycropcheck" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
